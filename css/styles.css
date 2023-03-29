@@ -13,7 +13,7 @@ nav{
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     color: white;
 }
 nav img{
@@ -53,11 +53,9 @@ ul li:hover{
 .firstContentHeader{
     display: flex;
     width: 100%;
-    height: 100%;
 }
 .firstContentHeader img.iphone{
-    width: 26%;
-    margin-right: 5%;
+    width: 70%;
     margin-left: 8%;
 }
 .firstContentHeader .contentRightHeader{
@@ -66,13 +64,19 @@ ul li:hover{
     margin-top: 3%;
 }
 
-.contentRightHeader p{
-    font-size: 26px;
+#pWhite{
+    width: 88%;
+    font-size: 24px;
     color: #DCDCDC;
 }
 #pGray{
     color: #6F767B;
+    font-size: 24px;
     width: 88%;
+}
+#or{
+    color: white;
+    font-size: 24px;
 }
 .contentRightHeader h1{
     color: white;
@@ -80,9 +84,8 @@ ul li:hover{
 }
 .contentButtonsHeader{
     display: flex;
-    width: 100%;
+    width: 88%;
     justify-content: space-evenly;
-    margin-bottom: 10%;
 }
 .contentButtonsHeader button{
     width: 24%;
@@ -282,7 +285,8 @@ footer p{
     margin-left: 3%;
 }
 
-@media screen and (max-width: 992px){
+
+@media screen and (max-width: 1200px){
     nav ul{
         margin-left: 25%;
     }
@@ -322,7 +326,55 @@ footer p{
         font-size: 14px;
     }
 }
-@media screen and (max-width: 771px){
+
+@media screen and (max-width: 992px){
+    nav ul{
+        margin-left: 25%;
+    }
+    .firstContentHeader img.iphone{
+        width: 33%;
+        margin-right: 0;
+        margin-left: 8%;
+    }
+    #pWhite,#pGray{
+        font-size: 18px;
+    }
+    .contentRightHeader p{
+        font-size: 20px;
+    }
+    .contentButtonsHeader button{
+        width: 33%;
+        height: 55px;
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
+    #or{
+        font-size: 18px;
+    }
+    .contentButtonsHeader p.pUnderline{
+        font-size: 14px;
+    }
+    .search img{
+        margin-left: 2%;
+    }
+    .contentFinalLeft{
+        margin-bottom: 4%;
+    }
+    .contentFinalLeft h2{
+        font-size: 22px;
+    }
+    .contentFinalLeft img{
+        height: 60%;
+        width: 26%;
+    }
+    .textFinal p{
+        font-size: 14px;  
+    }
+    .contentFinalRight p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 770px){
     nav ul{
         margin-left: 6%;
     }
@@ -332,9 +384,12 @@ footer p{
     .contentRightHeader p{
         font-size: 16px;
     }
+    #pWhite,#pGray{
+        font-size: 14px;
+    }
     .contentButtonsHeader button{
-        width: 38%;
-        height: 55px;
+        width: 40%;
+        height: 50px;
         font-size: 14px;
     }
     .contentButtonsHeader p.pUnderline{
@@ -374,28 +429,34 @@ footer p{
         font-size: 12px;
     }
 }
-@media screen and (max-width: 600px){
-    nav ul{
-        margin-left: 0;
+@media screen and (max-width: 480px){
+    nav{
+        width: 100%;
+        display: block;
     }
-    nav ul li{
+    nav ul{
+        margin: 0;
+        width: 100%;
+    }
+    nav ul li,li#home{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        text-align: center;
         width: 20%;
     }
     nav img{
-        width: 18%;
+        width: 30%;
         margin: 0;
-        padding: 0;
         margin-top: 2%;
         margin-left: 2%;
     }
     .firstContentHeader .contentRightHeader{
-        margin-left: 2%;
+        margin-left: 1%;
         margin-right: 0;
     }
     .firstContentHeader img.iphone{
         width: 44%;
-        margin-right: 0;
-        margin-left: 1%;
+        margin: 0;
     }
     .contentRightHeader h1{
         font-size: 22px;
@@ -403,8 +464,14 @@ footer p{
     .contentRightHeader p{
         font-size: 14px;
     }
+    #pWhite,#pGray{
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2%;
+    }
     p#or{
-        margin-top: 8%;
+        margin-top: 6%;
         font-size: 12px;
     }
     .imagesNav{
@@ -428,12 +495,19 @@ footer p{
         width: 94%;
         margin-bottom: 4%;
     }
+    .contentButtonsHeader{
+        width: 100%;
+        margin: 0;
+    }
     .contentButtonsHeader button{
-        width: 44%;
-        height: 50px;
+        width: 40%;
+        height: 40px;
+        padding: 0;
         font-size: 12px;
     }
     .contentButtonsHeader p.pUnderline{
+        margin-top: 12%;
+        width: 100%;
         font-size: 12px;
     }
     .subSection1 h2, .subSection2 h2, .subSection3 h2{
