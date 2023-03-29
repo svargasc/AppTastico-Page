@@ -500,7 +500,7 @@ footer p{
         margin: 0;
     }
     .contentButtonsHeader button{
-        width: 40%;
+        width: 48%;
         height: 40px;
         padding: 0;
         font-size: 12px;
@@ -508,7 +508,7 @@ footer p{
     .contentButtonsHeader p.pUnderline{
         margin-top: 12%;
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
     }
     .subSection1 h2, .subSection2 h2, .subSection3 h2{
         font-size: 18px;
