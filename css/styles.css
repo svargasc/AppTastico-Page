@@ -549,7 +549,7 @@ footer p{
     }
     .imageSearch img{
         width: 90%;
-        margin-left: 5%;
+        margin-left: 4%;
         margin-bottom: 2%;
     }
     .finalContent{
@@ -571,6 +571,13 @@ footer p{
         margin-left: 3%;
         margin-top: 4%;
         margin-bottom: 4%;
+    }
+    .contentFinalLeft img{
+        width: 30%;
+        height: 30%;
+    }
+    #older{
+        margin-left: 3%;
     }
     .contentFinalRight{
         width: 94%;
