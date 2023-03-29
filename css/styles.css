@@ -376,7 +376,18 @@ footer p{
 }
 @media screen and (max-width: 770px){
     nav ul{
-        margin-left: 6%;
+        margin-left: 2%;
+    }
+    nav img{
+        width: 30%;
+        height: 20%;
+        margin: 0;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    .firstContentHeader .contentRightHeader{
+        margin-left: 2%;
+        margin-right: 2%;
     }
     .contentRightHeader h1{
         font-size: 35px;
@@ -385,18 +396,30 @@ footer p{
         font-size: 16px;
     }
     #pWhite,#pGray{
-        font-size: 14px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .contentButtonsHeader{
+        display: flex;
+        width: 100%;
     }
     .contentButtonsHeader button{
-        width: 40%;
-        height: 50px;
+        width: 44%;
+        height: 48px;
         font-size: 14px;
     }
+    #or{
+        font-size: 18px;
+    }
     .contentButtonsHeader p.pUnderline{
-        font-size: 14px;
+        margin-top: 8%;
+        font-size: 18px;
     }
     .subSection1 h2, .subSection2 h2, .subSection3 h2{
         font-size: 18px;
+    }
+    .imageSearch img{
+        width: 22%;
     }
     h2#h2Nav2{
         margin: 0;
@@ -413,14 +436,15 @@ footer p{
         height: 28px;
     }
     .contentFinalLeft img{
-        width: 22%;
+        width: 30%;
+        height: 80%;
     }
     .contentFinalLeft{
         margin-top: 4%;
         margin-bottom: 4%;
     }
     .textFinal h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .textFinal p{
         font-size: 12px;  
